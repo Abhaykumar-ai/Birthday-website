@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oleo+Script:wght@400;700&display=swap');
+*{padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+  }
+
+.sec1{
+    background-image: url(image/happy-birthday-background-with-balloons-illustration-ai-generative-free-photo.jpg) ;
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.front h1{
+    text-align: center;
+    padding-top: 15%;
+    font-family: "Acme", serif;
+    font-size: 60px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(
+        90deg,#f32318,#e4d90d,#efefef,#dfdfdf
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.front P{
+    text-align: center;
+    font-family: "Acme", serif;
+    font-size: 30px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(
+        90deg,#08dae1,#00047e
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.btn{margin: 10% 0px 0px 45%;}
+
+.button{
+    font-family: "Acme", serif;
+    color: white; 
+    text-decoration: none;
+     border: 1px solid black ;
+      padding: 20px 20px;
+       text-align: center;
+    }
+    
+.button:hover{
+     color: white;
+    background-color:black ;
+     text-decoration: none;
+       padding: 20px 20px;
+        text-align: center;
+    }
+
+    @media screen and (max-width:455px) {
+        .button{
+            margin-left: -33px;
+        }
+    }
+
+
